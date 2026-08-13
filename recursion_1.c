@@ -10,11 +10,11 @@ int f(int n,int r)
 
 int main()
 {
-    int n;
+    int n,r;
 
-        printf("Enter the number : ");
-        scanf("%d",&n);
+        printf("Enter the value of n and r : ");
+        scanf("%d %d",&n,&r);
 
-        printf("Answer = %d\n",f(345,10));
+        printf("Answer = %d\n",f(n,r));
     return 0;
 }

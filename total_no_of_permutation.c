@@ -18,7 +18,6 @@ long long binomialCoeff(int n, int r) {
 long long catalan(int n) {
     return binomialCoeff(2 * n, n) / (n + 1);
 }
-
 int main() {
     int n;
     printf("Enter number of elements (n): ");
@@ -34,4 +33,3 @@ int main() {
 
     return 0;
 }
-
